@@ -8,7 +8,13 @@ fun main(){
         var tr = readln()!!.toDouble()
         println("Введите кол-во двоек")
         var dv = readln()!!.toDouble()
-        var sr = ((p * 5.0) + (ch * 4.0) + (tr * 3.0) + (dv * 2.0))/(p+ch+tr+dv)
+        var col = p+ch+tr+dv;
+        var oc = ((p * 5.0) + (ch * 4.0) + (tr * 3.0) + (dv * 2.0))
+        var sr = 0.0
+        when{
+            (col > 0.0) -> sr = oc/col
+
+        }
         println("Средний балл: "+ sr)
         println(2+2)
     }
