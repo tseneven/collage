@@ -1,0 +1,24 @@
+D:\Кузнецов Пр-23\УП4\obj\Debug\УП4.csproj.AssemblyReference.cache
+D:\Кузнецов Пр-23\УП4\obj\Debug\УП4.Form1.resources
+D:\Кузнецов Пр-23\УП4\obj\Debug\УП4.Properties.Resources.resources
+D:\Кузнецов Пр-23\УП4\obj\Debug\УП4.csproj.GenerateResource.cache
+D:\Кузнецов Пр-23\УП4\obj\Debug\УП4.csproj.CoreCompileInputs.cache
+D:\Кузнецов Пр-23\УП4\bin\Debug\УП4.exe.config
+D:\Кузнецов Пр-23\УП4\bin\Debug\УП4.exe
+D:\Кузнецов Пр-23\УП4\bin\Debug\УП4.pdb
+D:\Кузнецов Пр-23\УП4\obj\Debug\УП4.exe
+D:\Кузнецов Пр-23\УП4\obj\Debug\УП4.pdb
+C:\Users\Neven\Desktop\Проекты\УП4\bin\Debug\УП4.exe.config
+C:\Users\Neven\Desktop\Проекты\УП4\bin\Debug\УП4.exe
+C:\Users\Neven\Desktop\Проекты\УП4\bin\Debug\УП4.pdb
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.csproj.AssemblyReference.cache
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.Properties.Resources.resources
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.csproj.GenerateResource.cache
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.csproj.CoreCompileInputs.cache
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.exe
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.pdb
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.adminMode.resources
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.register.resources
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.studentMode.resources
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.autorizaton.resources
+C:\Users\Neven\Desktop\Проекты\УП4\obj\Debug\УП4.result.resources
