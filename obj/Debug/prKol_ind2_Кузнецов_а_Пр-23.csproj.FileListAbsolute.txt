@@ -1,0 +1,7 @@
+C:\Users\305-7\Desktop\Кузнецов\prKol_ind2_Кузнецов_а_Пр-23\bin\Debug\prKol_ind2_Кузнецов_а_Пр-23.exe.config
+C:\Users\305-7\Desktop\Кузнецов\prKol_ind2_Кузнецов_а_Пр-23\bin\Debug\prKol_ind2_Кузнецов_а_Пр-23.exe
+C:\Users\305-7\Desktop\Кузнецов\prKol_ind2_Кузнецов_а_Пр-23\bin\Debug\prKol_ind2_Кузнецов_а_Пр-23.pdb
+C:\Users\305-7\Desktop\Кузнецов\prKol_ind2_Кузнецов_а_Пр-23\obj\Debug\prKol_ind2_Кузнецов_а_Пр-23.csproj.AssemblyReference.cache
+C:\Users\305-7\Desktop\Кузнецов\prKol_ind2_Кузнецов_а_Пр-23\obj\Debug\prKol_ind2_Кузнецов_а_Пр-23.csproj.CoreCompileInputs.cache
+C:\Users\305-7\Desktop\Кузнецов\prKol_ind2_Кузнецов_а_Пр-23\obj\Debug\prKol_ind2_Кузнецов_а_Пр-23.exe
+C:\Users\305-7\Desktop\Кузнецов\prKol_ind2_Кузнецов_а_Пр-23\obj\Debug\prKol_ind2_Кузнецов_а_Пр-23.pdb
