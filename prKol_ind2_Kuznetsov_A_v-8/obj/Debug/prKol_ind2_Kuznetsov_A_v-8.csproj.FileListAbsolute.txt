@@ -1,0 +1,10 @@
+C:\Users\Neven\Documents\Учеба_и_Работа\prKol_ind2_Kuznetsov_A_v-8\bin\Debug\prKol_ind2_Kuznetsov_A_v-8.exe.config
+C:\Users\Neven\Documents\Учеба_и_Работа\prKol_ind2_Kuznetsov_A_v-8\bin\Debug\prKol_ind2_Kuznetsov_A_v-8.exe
+C:\Users\Neven\Documents\Учеба_и_Работа\prKol_ind2_Kuznetsov_A_v-8\bin\Debug\prKol_ind2_Kuznetsov_A_v-8.pdb
+C:\Users\Neven\Documents\Учеба_и_Работа\prKol_ind2_Kuznetsov_A_v-8\obj\Debug\prKol_ind2_Kuznetsov_A_v-8.csproj.AssemblyReference.cache
+C:\Users\Neven\Documents\Учеба_и_Работа\prKol_ind2_Kuznetsov_A_v-8\obj\Debug\prKol_ind2_Kuznetsov_A_v_8.Form1.resources
+C:\Users\Neven\Documents\Учеба_и_Работа\prKol_ind2_Kuznetsov_A_v-8\obj\Debug\prKol_ind2_Kuznetsov_A_v_8.Properties.Resources.resources
+C:\Users\Neven\Documents\Учеба_и_Работа\prKol_ind2_Kuznetsov_A_v-8\obj\Debug\prKol_ind2_Kuznetsov_A_v-8.csproj.GenerateResource.cache
+C:\Users\Neven\Documents\Учеба_и_Работа\prKol_ind2_Kuznetsov_A_v-8\obj\Debug\prKol_ind2_Kuznetsov_A_v-8.csproj.CoreCompileInputs.cache
+C:\Users\Neven\Documents\Учеба_и_Работа\prKol_ind2_Kuznetsov_A_v-8\obj\Debug\prKol_ind2_Kuznetsov_A_v-8.exe
+C:\Users\Neven\Documents\Учеба_и_Работа\prKol_ind2_Kuznetsov_A_v-8\obj\Debug\prKol_ind2_Kuznetsov_A_v-8.pdb
