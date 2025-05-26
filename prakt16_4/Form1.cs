@@ -51,8 +51,11 @@ namespace prakt16_4
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var sorted1 = countrys.OrderBy(c => c[0].Length);
-            var sorted = countrys.Where(p => long.Parse(p[1]) > 104000000).OrderBy(p=>p[0]);
+            var sorted1 = countrys
+                         .OrderBy(c => c[0].Length);
+            var sorted = countrys
+                         .Where(p => long.Parse(p[1]) > 104000000)
+                         .OrderByDescending(p=>p[0]);
             listBox1.Items.Clear();
             foreach (var cn in sorted)
             {
