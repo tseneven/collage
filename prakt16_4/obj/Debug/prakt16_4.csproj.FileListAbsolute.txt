@@ -1,0 +1,10 @@
+C:\Users\305-7\Desktop\Кузнецов\prakt16_4\bin\Debug\prakt16_4.exe.config
+C:\Users\305-7\Desktop\Кузнецов\prakt16_4\bin\Debug\prakt16_4.exe
+C:\Users\305-7\Desktop\Кузнецов\prakt16_4\bin\Debug\prakt16_4.pdb
+C:\Users\305-7\Desktop\Кузнецов\prakt16_4\obj\Debug\prakt16_4.csproj.AssemblyReference.cache
+C:\Users\305-7\Desktop\Кузнецов\prakt16_4\obj\Debug\prakt16_4.Form1.resources
+C:\Users\305-7\Desktop\Кузнецов\prakt16_4\obj\Debug\prakt16_4.Properties.Resources.resources
+C:\Users\305-7\Desktop\Кузнецов\prakt16_4\obj\Debug\prakt16_4.csproj.GenerateResource.cache
+C:\Users\305-7\Desktop\Кузнецов\prakt16_4\obj\Debug\prakt16_4.csproj.CoreCompileInputs.cache
+C:\Users\305-7\Desktop\Кузнецов\prakt16_4\obj\Debug\prakt16_4.exe
+C:\Users\305-7\Desktop\Кузнецов\prakt16_4\obj\Debug\prakt16_4.pdb
