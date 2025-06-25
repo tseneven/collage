@@ -6,29 +6,32 @@ using System.Threading.Tasks;
 
 namespace Departments
 {
-    internal class DangerousDepartment : Department
+    public class DangerousDepartment : Department
     {
+        // Поля
         private int p;
         private string type;
-        static Dictionary<DangerousDepartment, string> dangerousDepartments;
+        static public Dictionary<DangerousDepartment, string> dangerousDepartments = new Dictionary<DangerousDepartment, string>();
 
-
-        internal DangerousDepartment(string name, int base_salary, double coefficient, int p, string type, int numberOfEmployees, DateTime creationDate) :base(name, base_salary, coefficient, numberOfEmployees, creationDate)
+        //Конструктор
+        public DangerousDepartment(string name, int base_salary, double coefficient, int p, string type, int numberOfEmployees, string creationDate) :base(name, base_salary, coefficient, numberOfEmployees, creationDate)
         { 
             P = p;
             Type = type;
         }
 
+        //Геттеры и сеттеры
         public int P { get => p; set => p = value; }
         public string Type { get => type; set =>type = value; } // Свойство для нового поля
 
+        //Метод расчета Q
         public override double Q()
         {
             return (Base_salary * (100 + Coefficient)) + ((Base_salary * (100 + Coefficient)) / P);
         }
 
-        // Метод 
-        public string AddDepartment(DangerousDepartment department, string q)
+        // Метод добавления
+        static public string AddDepartment(DangerousDepartment department, string q)
         {
             if (!dangerousDepartments.Any(d => d.Key.Name == department.Name))
             {
@@ -41,7 +44,8 @@ namespace Departments
             }
         }
 
-        public string AddDepartment(DangerousDepartment department)
+        //Перегрузка метода добавления
+        static public string AddDepartment(DangerousDepartment department)
         {
             if (!dangerousDepartments.Any(d => d.Key.Name == department.Name))
             {
@@ -54,9 +58,10 @@ namespace Departments
             }
         }
 
-        public string DeleteDepartment(string name)
+        //Метод удадения
+        static public string DeleteDepartment(string name)
         {
-
+            
             var departmentToRemove = dangerousDepartments.Keys.FirstOrDefault(d => d.Name == name);
 
             if (departmentToRemove != null)
@@ -69,12 +74,12 @@ namespace Departments
                 return "Такой отдел не существует";
             }
         }
-
-        public string DeleteDepartment(DateTime creationDate)
+        //Перегрузка метода удаления
+        static public string DeleteDepartment()
         {
 
             var departmentsToRemove = dangerousDepartments.Keys
-                .Where(d => d.CreationDate < creationDate)
+                .Where(d => d.NumberOfEmployees < 1)
                 .ToList();
 
             if (departmentsToRemove.Count > 0)
@@ -90,10 +95,11 @@ namespace Departments
                 return "Нет отделов для удаления до указанной даты";
             }
         }
-
+        
+        //Метод для получения информации
         public override string Info()
         {
-            return base.Info() + $"p = {P}, Тип опасности: {type}, Qr = {Q()}";
+            return base.Info() + $" p = {P}, Тип опасности: {type}, Qr = {this.Q()}";
         }
     }
 }
