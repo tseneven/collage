@@ -1,5 +1,6 @@
 package com.example.pr_33_kuznetsov_v
 
+import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.Button
@@ -53,6 +54,9 @@ class MainActivity : AppCompatActivity() {
                 editor.putString("Password", PasswordText.text.toString())
 
                 editor.apply()
+
+                val intent = Intent(this, CreditCalculatorActivity:: class.java)
+                startActivity(intent)
             }
             else{
                 var toast : Toast = Toast.makeText(this, "Поля пусты", Toast.LENGTH_LONG)
@@ -65,7 +69,8 @@ class MainActivity : AppCompatActivity() {
         // Проверяем поля, если они пустые, то выдаем ошибку, если нет, то сохраняем в SP и переходим на другой экран
         ButtonLogin.setOnClickListener{
             if(LoginText.text.toString() == LoginInShared && PasswordText.text.toString() == PasswordInShared && LoginText.text.toString() == "ects" && PasswordText.text.toString() == "ects2023"){
-
+                val intent = Intent(this, CreditCalculatorActivity:: class.java)
+                startActivity(intent)
             }
             else{
                 var toast : Toast = Toast.makeText(this, "Ошибка, данные не совпадают", Toast.LENGTH_LONG)
