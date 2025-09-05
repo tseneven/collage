@@ -5,4 +5,6 @@
     <string name="Login">Логин</string>
     <string name="Password">Пароль</string>
     <string name="Enter">Войти</string>
+    <string name="back">На главное меню</string>
+    <string name="credit_calc">Кредитный калькулятор</string>
 </resources>
