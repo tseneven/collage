@@ -8,4 +8,6 @@
     <string name="back">На главное меню</string>
     <string name="credit_calc">Кредитный калькулятор</string>
     <string name="need">Сколько вам нужно</string>
+    <string name="ot">От 30 000</string>
+    <string name="doo">до 100 000</string>
 </resources>

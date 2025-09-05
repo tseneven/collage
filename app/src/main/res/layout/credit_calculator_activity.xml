@@ -45,7 +45,7 @@
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="350dp"
-            android:layout_height="70dp"
+            android:layout_height="90dp"
             android:background="@drawable/spiner"
             android:orientation="vertical"
             android:layout_marginTop="34dp"
@@ -62,8 +62,36 @@
 
             <SeekBar
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                />
+                android:layout_height="30dp"
+                android:min="30000"
+                android:max="100000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/ot"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:text="@string/doo"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ente"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="125dp">
+
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
