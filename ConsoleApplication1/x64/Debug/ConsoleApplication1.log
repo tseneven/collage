@@ -1,4 +1,2 @@
 ﻿  ConsoleApplication1.cpp
-C:\Users\Neven\Desktop\Ucheba\Системное программирование\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(24,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Neven\Desktop\Ucheba\Системное программирование\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(25,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  ConsoleApplication1.vcxproj -> C:\Users\Neven\Desktop\Ucheba\Системное программирование\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\Neven\Documents\Мое\Учеба\3 курс\SP\pr2\sp2\x64\Debug\ConsoleApplication1.exe

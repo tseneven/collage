@@ -1,41 +1,42 @@
 ﻿
 #include <iostream>
+#include <math.h> 
 
 
 
-struct Contact
-{
-	char phone[255]; 
-	char name[255];
-};
+// struct Contact
+// {
+// 	char phone[255]; 
+// 	char name[255];
+// };
 
-void EnterContact(Contact contact[], int index, Contact values) {
-	contact[index] = values;
-}
+// void EnterContact(Contact contact[], int index, Contact values) {
+// 	contact[index] = values;
+// }
 
-void PrintContact(Contact contact[], int count) {
+// void PrintContact(Contact contact[], int count) {
 
-	for (int i = 0; i < count; i++) {
-		std::cout << i+1 << " Contact " << contact[i].name << std::endl;
-		std::cout << contact[i].phone << std::endl;
-	}
-}
-void DeleteContact(Contact contact[], int index) {
-	int strlenname = strlen(contact[index - 1].name);
-	int strlenphone = strlen(contact[index - 1].phone);
+// 	for (int i = 0; i < count; i++) {
+// 		std::cout << i+1 << " Contact " << contact[i].name << std::endl;
+// 		std::cout << contact[i].phone << std::endl;
+// 	}
+// }
+// void DeleteContact(Contact contact[], int index) {
+// 	int strlenname = strlen(contact[index - 1].name);
+// 	int strlenphone = strlen(contact[index - 1].phone);
 
 
-	for (int i = strlenname; i > 0; i--) {
-		contact[index-1].name[i-1] = contact[index-1].name[i];
-	}
+// 	for (int i = strlenname; i > 0; i--) {
+// 		contact[index-1].name[i-1] = contact[index-1].name[i];
+// 	}
 
-	for (int i = strlenphone; i > 0; i--) {
-		contact[index-1].phone[i - 1] = contact[index-1].phone[i];
-	}
-}
-void EditContact(Contact contact[], int index, Contact newValues) {
-	contact[index-1] = newValues;
-}
+// 	for (int i = strlenphone; i > 0; i--) {
+// 		contact[index-1].phone[i - 1] = contact[index-1].phone[i];
+// 	}
+// }
+// void EditContact(Contact contact[], int index, Contact newValues) {
+// 	contact[index-1] = newValues;
+// }
 
 class Triangle {
 private:
@@ -48,12 +49,10 @@ public:
 		side2 = Side2;
 		side3 = Side3;
 	}
-
 	double S() {
 		double p = (side1 + side2 + side3) / 2;
-		return Math.(p * (p - side1) * (p - side2) * (p - side3));
+		return sqrt(p * (p - side1) * (p - side2) * (p - side3));
 	}
-
 };
 
 int main()
@@ -177,8 +176,9 @@ int main()
 	std::cin >> c;
 
 	Triangle triangle(a, b, c);
+	double result = triangle.S();
 
-	std::cout << triangle.S() << std::endl;
+	std::cout << result << std::endl;
 
 	return 0;
 }

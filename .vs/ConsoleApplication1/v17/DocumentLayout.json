@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Neven\\Desktop\\Ucheba\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ConsoleApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\Neven\\Documents\\my\\\u0423\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\SP\\pr2\\sp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{831F170B-A05F-4E70-9081-9A1DBB47A68A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\Neven\\Desktop\\Ucheba\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{831F170B-A05F-4E70-9081-9A1DBB47A68A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\Neven\\Documents\\my\\\u0423\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\SP\\pr2\\sp2\\ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{831F170B-A05F-4E70-9081-9A1DBB47A68A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,37 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:365008427:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ConsoleApplication1.cpp",
-              "DocumentMoniker": "C:\\Users\\Neven\\Desktop\\Ucheba\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\\u0423\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\SP\\pr2\\sp2\\ConsoleApplication1\\ConsoleApplication1.cpp",
               "RelativeDocumentMoniker": "ConsoleApplication1\\ConsoleApplication1.cpp",
-              "ToolTip": "C:\\Users\\Neven\\Desktop\\Ucheba\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ToolTip": "C:\\Users\\Neven\\Documents\\my\\\u0423\u0447\u0435\u0431\u0430\\3 \u043A\u0443\u0440\u0441\\SP\\pr2\\sp2\\ConsoleApplication1\\ConsoleApplication1.cpp",
               "RelativeToolTip": "ConsoleApplication1\\ConsoleApplication1.cpp",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-09T09:43:51.434Z",
               "EditorCaption": ""
