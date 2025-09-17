@@ -1,0 +1,12 @@
+﻿  Source.cpp
+C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\pr3\Source.cpp(26,91): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\pr3\Source.cpp(26,91): warning C4309: инициализация: усечение константного значения
+C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\pr3\Source.cpp(26,114): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\pr3\Source.cpp(26,114): warning C4309: инициализация: усечение константного значения
+C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\pr3\Source.cpp(26,177): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\pr3\Source.cpp(26,177): warning C4309: инициализация: усечение константного значения
+C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\pr3\Source.cpp(26,231): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\pr3\Source.cpp(26,231): warning C4309: инициализация: усечение константного значения
+C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\pr3\Source.cpp(26,288): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\pr3\Source.cpp(26,288): warning C4309: инициализация: усечение константного значения
+  pr3.vcxproj -> C:\Users\Neven\Desktop\Ucheba\Системное программирование\pr3\x64\Debug\pr3.exe
