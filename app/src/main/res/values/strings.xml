@@ -10,4 +10,9 @@
     <string name="need">Сколько вам нужно</string>
     <string name="ot">От 30 000</string>
     <string name="doo">до 100 000</string>
+    <string name="enter_srok">введите срок кредита</string>
+    <string name="calculate">расcчитать</string>
+    <string name="mPlat">Ежемесячный платеж</string>
+    <string name="sum">Сумма кредита</string>
+    <string name="srok">срок кредита</string>
 </resources>

@@ -61,6 +61,7 @@
                 android:layout_marginTop="10dp"/>
 
             <SeekBar
+                android:id="@+id/seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:min="30000"
@@ -87,11 +88,65 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="160dp"
-            android:layout_height="35dp"
+            android:layout_height="70dp"
             android:background="@drawable/ente"
             android:layout_marginTop="20dp"
-            android:layout_marginStart="125dp">
-
+            android:layout_marginStart="125dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_srok"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:layout_marginStart="20dp"/>
+                <EditText
+                    android:id="@+id/enterSrok"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonResult"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_login"
+            android:text="@string/calculate"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:onClick="OnClickCalculate"/>
+        <LinearLayout
+            android:layout_width="161dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ente"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="125dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="@string/mPlat"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"/>
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:layout_marginStart="20dp"/>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
