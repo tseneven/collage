@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pr2</string>
+    <string name="standart">Стандартный SnackBar</string>
+    <string name="withButton">SnackBar с кнопкой</string>
+    <string name="unstandart">Нестандартный SnackBar</string>
+
+</resources>

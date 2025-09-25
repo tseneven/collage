@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Pumpkin">#FE7F2D</color>
+    <color name="Charcoal">#4B607F</color>
+    <color name="whiteNew">#E8D8C9</color>
+    <color name="asphalt">#252c37</color>
+</resources>
