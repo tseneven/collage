@@ -74,19 +74,26 @@ public:
 
 
         Node* tmp = tail;
-        bool fieldNotEmpty = false;
-
+        bool gameOver = false;
+        bool notFirstItteration = false;
 
         // Перебор змейки
         while (tmp != nullptr) {
-           // std::cout << tmp->data.x << " " << tmp->data.y << std::endl;
             if (tmp->data.x >= 0 && tmp->data.x < 15 && tmp->data.y >= 0 && tmp->data.y < 15) {
                 field[tmp->data.y][tmp->data.x] = 1;
                 if (tail->data.x >= 0 && tail->data.x < 15 && tail->data.y >= 0 && tail->data.y < 15) {
-                    fieldNotEmpty = true;
+                    gameOver = true;
                 }
             }
+
+            if (notFirstItteration && tmp != nullptr && appleEated != true) {
+                if (tail->data.x == tmp->data.x && tail->data.y == tmp->data.y) {
+                    gameOver = false;
+                }
+            }
+
             tmp = tmp->prev;
+            notFirstItteration = true;
         }
 
         if (appleEated == true) {
@@ -99,13 +106,14 @@ public:
 
         // Выводим поле
         for (int i = 0; i < 15; i++) {
-            for (int j = 0; j < 15; j++) {
+            for (int j = 0; j < 15; j++) {  
                 std::cout << field[i][j];
             }
             std::cout << std::endl;
         }
 
-        if (!fieldNotEmpty) {
+
+        if (!gameOver) {
             std::cout << "Lose" << std::endl;
             return false;
         }
@@ -134,7 +142,7 @@ public:
         int x = rand() % (b - a + 1) + a;
         int y = rand() % (b - a + 1) + a;
 
-        std::cout << x << " " << y << std::endl;
+        //std::cout << x << " " << y << std::endl;
 
         return {x,y};
     }
