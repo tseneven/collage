@@ -1,0 +1,126 @@
+﻿<Window x:Class="trpo6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:trpo6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="580" Width="600">
+    <DockPanel
+        LastChildFill="false">
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+            <Button Name ="main"
+                    Width="130"
+                    DockPanel.Dock="Left"
+                    Height="30"
+                    Margin="8"
+                    >
+                Главная
+            </Button>
+            <Button Name ="profile"
+                Width="130"
+                DockPanel.Dock="Left"
+                Height="30"
+                Margin="8">
+                Профиль
+            </Button>
+            <Button Name ="settings"
+                    Width="130"
+                    DockPanel.Dock="Left"
+                    Height="30"
+                    Margin="8">
+                Настройки
+            </Button>
+            <Button Name ="help"
+                Width="130"
+                DockPanel.Dock="Left"
+                Height="30"
+                Margin="8">
+                Помощь
+            </Button>
+        </StackPanel>
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="380"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Vertical" 
+                        Grid.Column="1">
+                <StackPanel Orientation="Horizontal"
+                             Margin="8">
+                    <Label Width="100">ФИО:</Label>
+                    <TextBox Width="250"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"
+                             Margin="8">
+                    <Label Width="100">Email:</Label>
+                    <TextBox Width="250"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"
+                                 Margin="8">
+                    <Label Width="100">Телефон:</Label>
+                    <TextBox Width="250"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"
+                            Margin="8">
+                    <Label Width="100">Дата рождения:</Label>
+                    <DatePicker Width="250"></DatePicker>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"
+            Margin="8">
+                    <Label Width="100">Пол:</Label>
+                    <RadioButton Margin="8">Мужской</RadioButton>
+                    <RadioButton Margin="8">Женский</RadioButton>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"
+             Margin="8">
+                    <Label Width="100">Пароль:</Label>
+                    <TextBox Width="250"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"
+             Margin="8">
+                    <Label Width="150">Подтверждение пароля:</Label>
+                    <TextBox Width="200"></TextBox>
+                </StackPanel>
+            </StackPanel>
+            <Border BorderBrush="Black" BorderThickness="0.5" Margin="25">
+                <Button Height="20" Margin="5" VerticalAlignment ="Bottom">Загрузить фото</Button>
+            </Border>
+        </Grid>
+        <WrapPanel Background="WhiteSmoke"
+                   Margin="10"
+                   Orientation="Horizontal"
+                   DockPanel.Dock="Top">
+            <TextBlock Width="600">*Пароль должен содержать минимум 8 символов.</TextBlock>
+            <TextBlock Width="600"></TextBlock>
+            <TextBlock Width="300">*Email должен быть в форме name@mail.com.</TextBlock>
+            <TextBlock>*Все поля обязательны.</TextBlock>
+            <TextBlock Width="600"></TextBlock>
+            <TextBlock Width="600"></TextBlock>
+            <TextBlock Width="600"></TextBlock>
+            <TextBlock Width="600"></TextBlock>
+        </WrapPanel>
+        <StackPanel Orientation ="Horizontal" 
+                    HorizontalAlignment="Right"
+                    DockPanel.Dock="Top">
+            <Button Name="register" 
+                    Margin="8" 
+                    Width="150">
+                Зарегистрироваться
+            </Button>
+            <Button Name="cansel" 
+                    Margin="8" 
+                    Width="100">
+                Отмена
+            </Button>
+        </StackPanel>
+
+            <StatusBar Background="LightGray" DockPanel.Dock="Bottom">
+                <TextBlock DockPanel.Dock="Bottom" 
+    Margin="8">Готово</TextBlock>
+            </StatusBar>
+    </DockPanel>
+</Window>
