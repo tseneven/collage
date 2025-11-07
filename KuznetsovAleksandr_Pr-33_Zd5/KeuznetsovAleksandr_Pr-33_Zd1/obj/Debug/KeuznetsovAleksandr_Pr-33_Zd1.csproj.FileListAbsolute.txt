@@ -1,0 +1,8 @@
+C:\Users\Neven\Desktop\Ucheba\TRPO\KeuznetsovAleksandr_Pr-33_Zd1\KeuznetsovAleksandr_Pr-33_Zd1\bin\Debug\KeuznetsovAleksandr_Pr-33_Zd1.exe.config
+C:\Users\Neven\Desktop\Ucheba\TRPO\KeuznetsovAleksandr_Pr-33_Zd1\KeuznetsovAleksandr_Pr-33_Zd1\bin\Debug\KeuznetsovAleksandr_Pr-33_Zd1.exe
+C:\Users\Neven\Desktop\Ucheba\TRPO\KeuznetsovAleksandr_Pr-33_Zd1\KeuznetsovAleksandr_Pr-33_Zd1\bin\Debug\KeuznetsovAleksandr_Pr-33_Zd1.pdb
+C:\Users\Neven\Desktop\Ucheba\TRPO\KeuznetsovAleksandr_Pr-33_Zd1\KeuznetsovAleksandr_Pr-33_Zd1\obj\Debug\KeuznetsovAleksandr_Pr-33_Zd1.csproj.AssemblyReference.cache
+C:\Users\Neven\Desktop\Ucheba\TRPO\KeuznetsovAleksandr_Pr-33_Zd1\KeuznetsovAleksandr_Pr-33_Zd1\obj\Debug\KeuznetsovAleksandr_Pr-33_Zd1.csproj.CoreCompileInputs.cache
+C:\Users\Neven\Desktop\Ucheba\TRPO\KeuznetsovAleksandr_Pr-33_Zd1\KeuznetsovAleksandr_Pr-33_Zd1\obj\Debug\KeuznetsovAleksandr_Pr-33_Zd1.exe
+C:\Users\Neven\Desktop\Ucheba\TRPO\KeuznetsovAleksandr_Pr-33_Zd1\KeuznetsovAleksandr_Pr-33_Zd1\obj\Debug\KeuznetsovAleksandr_Pr-33_Zd1.pdb
+C:\Users\Neven\Desktop\Ucheba\TRPO\KeuznetsovAleksandr_Pr-33_Zd1\KeuznetsovAleksandr_Pr-33_Zd1\obj\Debug\KeuznetsovAleksandr_Pr-33_Zd1.exe.config

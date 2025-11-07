@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAleksandr_Pr-33_Zd4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB7626D-33C7-4CD3-AFC0-777D72C34390}|KuznetsovAleksandr_Pr-33_Zd4\\KuznetsovAleksandr_Pr-33_Zd4.csproj|c:\\users\\neven\\desktop\\ucheba\\trpo\\kuznetsovaleksandr_pr-33_zd4\\kuznetsovaleksandr_pr-33_zd4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB7626D-33C7-4CD3-AFC0-777D72C34390}|KuznetsovAleksandr_Pr-33_Zd4\\KuznetsovAleksandr_Pr-33_Zd4.csproj|solutionrelative:kuznetsovaleksandr_pr-33_zd4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:365008427:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAleksandr_Pr-33_Zd4\\KuznetsovAleksandr_Pr-33_Zd4\\Program.cs",
+              "RelativeDocumentMoniker": "KuznetsovAleksandr_Pr-33_Zd4\\Program.cs",
+              "ToolTip": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAleksandr_Pr-33_Zd4\\KuznetsovAleksandr_Pr-33_Zd4\\Program.cs",
+              "RelativeToolTip": "KuznetsovAleksandr_Pr-33_Zd4\\Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAE0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T06:35:09.613Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
