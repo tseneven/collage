@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BankActivity"
+    android:background="@color/green"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reg"
+            android:textColor="@color/green"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="80dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enterData"
+        android:textColor="@color/black"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="46dp"/>
+    <EditText
+        android:id="@+id/log_editText"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:hint="@string/log"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="14dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/pas_editText"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:hint="@string/pas"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="14dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/log_button"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/but_log"
+            android:text="@string/enter"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="183dp"
+            android:layout_marginLeft="5dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

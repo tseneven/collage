@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KuznetsovAA_01_04</string>
+    <string name="reg">Регистрация</string>
+    <string name="enterData">Введите ваш логин и пароль</string>
+    <string name="log">Логин</string>
+    <string name="pas">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="creditCalc">Кредитный калькулятор</string>
+    <string name="back">на главное меню</string>
+    <string name="need">Сколько вам нужно</string>
+    <string name="three">от 30 000</string>
+    <string name="hun">до 100 000</string>
+    <string name="srock">введите срок кредита</string>
+    <string name="result">РАССЧИТАТЬ</string>
+    <string name="ezh">ежемесячный платёж</string>
+    <string name="sum">Сумма кредита</string>
+    <string name="scrock">срок кредита</string>
+
+</resources>
