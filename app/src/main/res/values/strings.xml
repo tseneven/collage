@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TravelWatch</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">From the Square world,\nHello, %1$s!</string>
+    <string name="wc">WorldCinema</string>
+    <string name="enter">Войти</string>
+    <string name="u_pas">Ваш пароль</string>
+    <string name="pas">Пароль</string>
+    <string name="ex_email">you@example.com</string>
+    <string name="email">E-mail</string>
+    <string name="obs">Обсуждение</string>
+    <string name="izb">Избранное</string>
+    <string name="newE">Новое</string>
+</resources>

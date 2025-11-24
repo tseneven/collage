@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity"
+    android:background="@drawable/fon"
+
+>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TravelWatch"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="27dp"
+            android:gravity="center"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="12sp"
+                android:textColor="@color/gray"/>
+            <EditText
+                android:id="@+id/email_edit"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:hint="@string/ex_email"
+                android:textSize="12sp"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pas"
+                android:textSize="12sp"
+                android:textColor="@color/gray"/>
+            <EditText
+                android:id="@+id/pas_edit"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:hint="@string/u_pas"
+                android:textSize="12sp"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"/>
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/log_but"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/border"
+            android:text="@string/enter"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:layout_marginTop="24dp"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
