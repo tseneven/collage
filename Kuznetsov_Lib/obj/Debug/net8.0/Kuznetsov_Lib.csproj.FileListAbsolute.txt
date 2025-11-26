@@ -1,0 +1,11 @@
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\bin\Debug\net8.0\Kuznetsov_Lib.deps.json
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\bin\Debug\net8.0\Kuznetsov_Lib.dll
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\bin\Debug\net8.0\Kuznetsov_Lib.pdb
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\obj\Debug\net8.0\Kuznetsov_Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\obj\Debug\net8.0\Kuznetsov_Lib.AssemblyInfoInputs.cache
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\obj\Debug\net8.0\Kuznetsov_Lib.AssemblyInfo.cs
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\obj\Debug\net8.0\Kuznetsov_Lib.csproj.CoreCompileInputs.cache
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\obj\Debug\net8.0\Kuznetsov_Lib.dll
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\obj\Debug\net8.0\refint\Kuznetsov_Lib.dll
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\obj\Debug\net8.0\Kuznetsov_Lib.pdb
+C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\obj\Debug\net8.0\ref\Kuznetsov_Lib.dll

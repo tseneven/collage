@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kuznetsov_Lib</id>
+    <version>1.0.0</version>
+    <authors>Kuznetsov_Lib</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Neven\Desktop\Ucheba\TRPO\KuznetsovAA_0102_02\Kuznetsov_Lib\bin\Debug\net8.0\Kuznetsov_Lib.dll" target="lib\net8.0\Kuznetsov_Lib.dll" />
+  </files>
+</package>

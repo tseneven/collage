@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA771B0D-EFD5-4959-8ADF-6B8922E2B430}|TestProject2\\TestProject2.csproj|c:\\users\\neven\\desktop\\ucheba\\trpo\\kuznetsovaa_0102_02\\testproject2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA771B0D-EFD5-4959-8ADF-6B8922E2B430}|TestProject2\\TestProject2.csproj|solutionrelative:testproject2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41E5171-E1BC-4138-BAA1-2C165E90E235}|Kuznetsov_Lib\\Kuznetsov_Lib.csproj|c:\\users\\neven\\desktop\\ucheba\\trpo\\kuznetsovaa_0102_02\\kuznetsov_lib\\computerqp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41E5171-E1BC-4138-BAA1-2C165E90E235}|Kuznetsov_Lib\\Kuznetsov_Lib.csproj|solutionrelative:kuznetsov_lib\\computerqp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41E5171-E1BC-4138-BAA1-2C165E90E235}|Kuznetsov_Lib\\Kuznetsov_Lib.csproj|c:\\users\\neven\\desktop\\ucheba\\trpo\\kuznetsovaa_0102_02\\kuznetsov_lib\\computerq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41E5171-E1BC-4138-BAA1-2C165E90E235}|Kuznetsov_Lib\\Kuznetsov_Lib.csproj|solutionrelative:kuznetsov_lib\\computerq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8FCB2B2-917E-4DCD-9304-CC4474E44F53}|KuznetsovAA_0102_02\\KuznetsovAA_0102_02.csproj|c:\\users\\neven\\desktop\\ucheba\\trpo\\kuznetsovaa_0102_02\\kuznetsovaa_0102_02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8FCB2B2-917E-4DCD-9304-CC4474E44F53}|KuznetsovAA_0102_02\\KuznetsovAA_0102_02.csproj|solutionrelative:kuznetsovaa_0102_02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8FCB2B2-917E-4DCD-9304-CC4474E44F53}|KuznetsovAA_0102_02\\KuznetsovAA_0102_02.csproj|c:\\users\\neven\\desktop\\ucheba\\trpo\\kuznetsovaa_0102_02\\kuznetsovaa_0102_02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8FCB2B2-917E-4DCD-9304-CC4474E44F53}|KuznetsovAA_0102_02\\KuznetsovAA_0102_02.csproj|solutionrelative:kuznetsovaa_0102_02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:365008427:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\TestProject2\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject2\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\TestProject2\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject2\\UnitTest1.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T05:34:02.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\KuznetsovAA_0102_02\\Form1.cs",
+              "RelativeDocumentMoniker": "KuznetsovAA_0102_02\\Form1.cs",
+              "ToolTip": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\KuznetsovAA_0102_02\\Form1.cs",
+              "RelativeToolTip": "KuznetsovAA_0102_02\\Form1.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T04:46:13.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComputerQ.cs",
+              "DocumentMoniker": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\Kuznetsov_Lib\\ComputerQ.cs",
+              "RelativeDocumentMoniker": "Kuznetsov_Lib\\ComputerQ.cs",
+              "ToolTip": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\Kuznetsov_Lib\\ComputerQ.cs",
+              "RelativeToolTip": "Kuznetsov_Lib\\ComputerQ.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T04:27:36.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\KuznetsovAA_0102_02\\Form1.cs",
+              "RelativeDocumentMoniker": "KuznetsovAA_0102_02\\Form1.cs",
+              "ToolTip": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\KuznetsovAA_0102_02\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "KuznetsovAA_0102_02\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T04:26:35.192Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComputerQp.cs",
+              "DocumentMoniker": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\Kuznetsov_Lib\\ComputerQp.cs",
+              "RelativeDocumentMoniker": "Kuznetsov_Lib\\ComputerQp.cs",
+              "ToolTip": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\Kuznetsov_Lib\\ComputerQp.cs",
+              "RelativeToolTip": "Kuznetsov_Lib\\ComputerQp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T04:31:18.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "8V3CW8vnhy8=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\Kuznetsov_test\\Kuznetsov_test.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json.\r\n  Время ожидания исполнения HTTP-запроса \"GET https://api.nuget.org/v3/index.json\" истекло спустя 100000\u00A0мс.",
+      "projectPath": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\Kuznetsov_test\\Kuznetsov_test.csproj",
+      "filePath": "C:\\Users\\Neven\\Desktop\\Ucheba\\TRPO\\KuznetsovAA_0102_02\\Kuznetsov_test\\Kuznetsov_test.csproj",
+      "libraryId": "MSTest",
+      "targetGraphs": []
+    }
+  ]
+}
