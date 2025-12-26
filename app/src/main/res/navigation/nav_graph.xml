@@ -1,0 +1,45 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.prackt7.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_menu"
+            app:destination="@id/menuFragment"/>
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.prackt7.MenuFragment"
+        android:label="Menu">
+        <action
+            android:id="@+id/action_menu_to_students"
+            app:destination="@id/studentsFragment"/>
+        <action
+            android:id="@+id/action_menu_to_teachers"
+            app:destination="@id/teachersFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/studentDetailFragment"
+        android:name="com.example.prackt7.StudentDetailFragment"
+        android:label="Детали студента">
+        <argument
+            android:name="studentId"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentsFragment"
+        android:name="com.example.prackt7.StudentsFragment"
+        android:label="Students"/>
+
+    <fragment
+        android:id="@+id/teachersFragment"
+        android:name="com.example.prackt7.TeachersFragment"
+        android:label="Teachers"/>
+</navigation>

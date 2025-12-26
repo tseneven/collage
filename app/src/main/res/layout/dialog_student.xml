@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editFullName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="ФИО"/>
+
+        <EditText
+            android:id="@+id/editGroup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Группа"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/editCourse"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Курс"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/editSpecialtyId"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Номер специальности"
+            android:inputType="number"
+            android:layout_marginTop="8dp"/>
+
+        <DatePicker
+            android:id="@+id/datePickerBirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="true"
+            android:spinnersShown="false"
+            android:layout_marginTop="8dp"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBudget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бюджет"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Сохранить"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

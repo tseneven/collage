@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@drawable/fon2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Главное меню"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/gray"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnStudents"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Студенты"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnTeachers"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Преподаватели"/>
+
+</LinearLayout>

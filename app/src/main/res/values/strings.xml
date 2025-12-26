@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Collage</string>
+
+    <string name="wc">WorldCinema</string>
+    <string name="enter">Войти</string>
+    <string name="u_pas">Ваш пароль</string>
+    <string name="pas">Пароль</string>
+    <string name="ex_email">you@example.com</string>
+    <string name="email">E-mail</string>
+    <string name="obs">Обсуждение</string>
+    <string name="izb">Избранное</string>
+    <string name="newE">Новое</string>
+    <string name="collagesystem">CollageSystem</string>
+    <string name="stud">Студенты</string>
+    <string name="prep">Преподаватели</string>
+    <string name="stud1">Студент</string>
+    <string name="prep1">Преподаватель</string>
+    <string name="coms">Комиссия</string>
+</resources>
