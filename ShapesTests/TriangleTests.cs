@@ -48,7 +48,7 @@ namespace ShapesTests
             triangle.SideA = 10;
             triangle.SideB = 10;
             triangle.SideC = 10;
-            double result = 10;
+            double result = 43.301270189221931;
 
             Assert.Equal(result, triangle.Area());
 
