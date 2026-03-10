@@ -25,7 +25,7 @@
                 throw new ArgumentException("Неверные входные данные");
             }
 
-            return (SideA + SideB + SideC) / 2;
+            return (SideA + SideB + SideC);
         }
 
         public override string ToString()
