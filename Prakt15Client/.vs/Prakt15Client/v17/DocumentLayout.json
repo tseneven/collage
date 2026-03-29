@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Neven\\Desktop\\Ucheba\\SP\\Prakt15Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD0D1B0-31A1-4C90-A5F3-5748B8B7353E}|Prakt15Client\\Prakt15Client.vcxproj|C:\\Users\\Neven\\Desktop\\Ucheba\\SP\\Prakt15Client\\Prakt15Client\\Prakt15Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAD0D1B0-31A1-4C90-A5F3-5748B8B7353E}|Prakt15Client\\Prakt15Client.vcxproj|solutionrelative:Prakt15Client\\Prakt15Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 374,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:365008427:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prakt15Client.cpp",
+              "DocumentMoniker": "C:\\Users\\Neven\\Desktop\\Ucheba\\SP\\Prakt15Client\\Prakt15Client\\Prakt15Client.cpp",
+              "RelativeDocumentMoniker": "Prakt15Client\\Prakt15Client.cpp",
+              "ToolTip": "C:\\Users\\Neven\\Desktop\\Ucheba\\SP\\Prakt15Client\\Prakt15Client\\Prakt15Client.cpp",
+              "RelativeToolTip": "Prakt15Client\\Prakt15Client.cpp",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwFMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-27T06:11:16.936Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
