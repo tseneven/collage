@@ -52,33 +52,43 @@ namespace prakt15.pages
 
         private void SortComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            ApplyCurrentFiltersAndSort();
+            ApplyCurrentFiltersAndSort(true);
             UpdateProductsList();
             inList.Text = $"Всего показано: {products.Count}";
         }
-        private void ApplyCurrentFiltersAndSort()
+        private void ApplyCurrentFiltersAndSort(bool isSortAndSearch)
         {
             bool CBCorrect = false;
             bool PriceCorrect = false;
-            if (CategoriesCB.SelectedIndex != -1)
+
+            if (isSortAndSearch)
             {
                 CBCorrect = true;
-            }
-
-            if (BrandCB.SelectedIndex != -1)
-            {
-                CBCorrect = true;
-            }
-
-            if (int.TryParse(toPrice.Text, out int too) || int.TryParse(fromPrice.Text, out int fr))
-            {
                 PriceCorrect = true;
             }
-
-            if (!CBCorrect && !PriceCorrect)
+            else
             {
-                MessageBox.Show("Ошибка");
-                return;
+                if (CategoriesCB.SelectedIndex != -1)
+                {
+                    CBCorrect = true;
+                }
+
+                if (BrandCB.SelectedIndex != -1)
+                {
+                    CBCorrect = true;
+                }
+
+                if (int.TryParse(toPrice.Text, out int too) || int.TryParse(fromPrice.Text, out int fr))
+                {
+                    PriceCorrect = true;
+                }
+                if (!CBCorrect && !PriceCorrect)
+                {
+                    MessageBox.Show("Ошибка");
+                    return;
+                }
+
+
             }
 
             IQueryable<Product> query = allProducts.AsQueryable();
@@ -191,14 +201,14 @@ namespace prakt15.pages
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            ApplyCurrentFiltersAndSort();
+            ApplyCurrentFiltersAndSort(true);
             UpdateProductsList();
             inList.Text = $"Всего показано: {products.Count}";
         }
 
         private void Apply_Click(object sender, RoutedEventArgs e)
         {
-            ApplyCurrentFiltersAndSort();
+            ApplyCurrentFiltersAndSort(false);
             UpdateProductsList();
             inList.Text = $"Всего показано: {products.Count}";
         }
