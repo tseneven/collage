@@ -92,7 +92,7 @@
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <StackPanel Orientation="Horizontal">
-                                            <TextBlock Text="{Binding Tags.Name}"></TextBlock>
+                                            <TextBlock Text="{Binding Tags.Name, StringFormat='{}#{0}'}"></TextBlock>
                                         </StackPanel>
                                     </DataTemplate>
                                 </ListView.ItemTemplate>

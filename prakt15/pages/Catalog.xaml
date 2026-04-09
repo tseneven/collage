@@ -90,7 +90,7 @@
                                 </ListView.ItemsPanel>
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
-                                        <TextBlock Text="{Binding Tags.Name}"></TextBlock>
+                                        <TextBlock Text="{Binding Tags.Name, StringFormat='{}#{0}'}"></TextBlock>
                                     </DataTemplate>
                                 </ListView.ItemTemplate>
                             </ListView>
