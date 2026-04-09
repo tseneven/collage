@@ -55,15 +55,26 @@ namespace prakt15.pages
         }
         private void ApplyCurrentFiltersAndSort()
         {
-            if (CategoriesCB.SelectedIndex == -1 && BrandCB.SelectedIndex == -1 && (int.TryParse(toPrice.Text, out int to1) && int.TryParse(fromPrice.Text, out int fr1)))
+            bool CBCorrect = false;
+            bool PriceCorrect = false;
+            if (CategoriesCB.SelectedIndex != -1 )
             {
-                MessageBox.Show("Введены некорректные значения");
-                return;
+                CBCorrect = true;
             }
 
-            if (!int.TryParse(toPrice.Text, out int to) && !int.TryParse(fromPrice.Text, out int fr))
+            if (BrandCB.SelectedIndex != -1)
             {
-                MessageBox.Show("Введены некорректные значения");
+                CBCorrect = true;
+            }
+
+            if (int.TryParse(toPrice.Text, out int too) || int.TryParse(fromPrice.Text, out int fr))
+            {
+                PriceCorrect = true;
+            }
+
+            if (!CBCorrect && !PriceCorrect)
+            {
+                MessageBox.Show("Ошибка");
                 return;
             }
 
