@@ -58,6 +58,17 @@ namespace prakt15.pages
         }
         private void ApplyCurrentFiltersAndSort()
         {
+            if (CategoriesCB.SelectedIndex == -1 && BrandCB.SelectedIndex == -1 && (int.TryParse(toPrice.Text, out int to1) && int.TryParse(fromPrice.Text, out int fr1)))
+            {
+                MessageBox.Show("Введены некорректные значения");
+                return;
+            }
+
+            if (!int.TryParse(toPrice.Text, out int to) && !int.TryParse(fromPrice.Text, out int fr))
+            {
+                MessageBox.Show("Введены некорректные значения");
+                return;
+            }
             IQueryable<Product> query = allProducts.AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(SearchTextBox.Text))
