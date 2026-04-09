@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="5.3.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="33.1.45" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="pages\categories\AddAndEditCategoriesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\categories\CategoriesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\MainAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\tags\AddAndEditTagsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\tags\TagsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,35 @@
+﻿<Page x:Class="prakt15.pages.TagsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:prakt15.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      DataContext="{Binding RelativeSource={RelativeSource Self}}"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      Title="BrandsPage" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <ListView Grid.Column="1" ItemsSource="{Binding tagsService.Tags}" SelectedItem="{Binding tag}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Name}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel>
+            <Button x:Name="Back" Background="#00C4B4" Margin="10 5" Click="Back_Click" >Назад</Button>
+            <Button x:Name="AddBrand" Background="#00C4B4" Margin="10 5" Click="AddBrand_Click" >Добавить тэг</Button>
+            <Button x:Name="DeleteBrand" Background="OrangeRed" Margin="10 5" Click="DeleteBrand_Click">Удалить тэг</Button>
+            <Button x:Name="EditBrand" Background="#00C4B4" Margin="10 5" Click="EditBrand_Click">Редактировать тэг</Button>
+        </StackPanel>
+
+    </Grid>
+</Page>

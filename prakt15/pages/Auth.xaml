@@ -1,0 +1,32 @@
+﻿<Page x:Class="prakt15.pages.Auth"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:prakt15.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Auth" 
+      KeyDown="Page_KeyDown"  
+      Background="#dfeaeb" 
+      Loaded="Page_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" >
+            <TextBlock TextAlignment="Center">Введите код</TextBlock>
+            <StackPanel Height="20"></StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <PasswordBox Background="#00C4B4" x:Name="passBox" Style="{StaticResource MaterialDesignFilledPasswordBox}" BorderBrush="Black" Width="200"></PasswordBox>
+            </StackPanel>
+            <StackPanel Height="20"></StackPanel>
+            <TextBlock TextAlignment="Center">или</TextBlock>
+            <StackPanel Height="20"></StackPanel>
+            <Button Background="#00C4B4" Click="Button_Click">Войти как посетитель</Button>
+        </StackPanel>
+    </Grid>
+</Page>

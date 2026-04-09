@@ -1,0 +1,129 @@
+﻿<Page x:Class="prakt15.pages.MainAdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:prakt15.pages"
+      mc:Ignorable="d" 
+      Background="#dfeaeb" 
+      DataContext="{Binding RelativeSource={RelativeSource Self}}"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Catalog" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="DemiBold" FontSize="30">Каталог</TextBlock>
+        <Border Grid.Row="0" Grid.Column="1" BorderThickness="0 1" BorderBrush="Black" />
+        <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" BorderThickness="1" BorderBrush="Black" />
+
+        <StackPanel Grid.Row="1" HorizontalAlignment="Stretch" Margin="20">
+            <StackPanel Height="20"></StackPanel>
+            <ComboBox x:Name="CategoriesCB" materialDesign:HintAssist.Hint="Категории" Background="#00C4B4" ItemsSource="{Binding categoriesSeivice.Categories}" DisplayMemberPath="Name"></ComboBox>
+            <StackPanel Height="20"></StackPanel>
+            <ComboBox x:Name="BrandCB" materialDesign:HintAssist.Hint="Бренды" Background="#00C4B4" ItemsSource="{Binding brandService.Brands}" DisplayMemberPath="Name"></ComboBox>
+            <StackPanel Height="20"></StackPanel>
+            <Grid Height="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="toPrice" HorizontalAlignment="Stretch" materialDesign:HintAssist.Hint="От" Background="#00C4B4"></TextBox>
+                <TextBlock Grid.Column="1" TextAlignment="Center" FontSize="20">-</TextBlock>
+                <TextBox x:Name="fromPrice" Grid.Column="2" HorizontalAlignment="Stretch" materialDesign:HintAssist.Hint="До" Background="#00C4B4"></TextBox>
+            </Grid>
+            <StackPanel Height="20"></StackPanel>
+            <Button x:Name="Apply" HorizontalAlignment="Stretch" Background="#00C4B4" Click="Apply_Click">Применить</Button>
+        </StackPanel>
+        <Grid Grid.Column="1">
+            <ComboBox x:Name="SortComboBox" materialDesign:HintAssist.Hint ="Сортировать" Background="#00C4B4" HorizontalAlignment="Left" SelectionChanged="SortComboBox_SelectionChanged"></ComboBox>
+            <TextBox x:Name="SearchTextBox"  Background="#00C4B4" materialDesign:HintAssist.Hint="Поиск" HorizontalAlignment="Right" Width="200" TextChanged="TextBox_TextChanged"></TextBox>
+        </Grid>
+        <ListView Grid.Row="1" Grid.Column="1" ItemsSource="{Binding products}" x:Name="listViewProducts" SelectedItem="{Binding product}">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding AlmostOutOfStock}" Value="True">
+                            <Setter Property="BorderBrush" Value="#ffd129"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="9*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="{Binding Name}" Grid.Column="0" FontWeight="DemiBold" FontSize="15"/>
+                            <TextBlock Text="{Binding Price, StringFormat='{}{0} $'}" Grid.Column="1" HorizontalAlignment="Right"/>
+                            <materialDesign:PackIcon Kind="Star" Width="20" Height="20" Foreground="Gold" Grid.Row="1"/>
+                            <TextBlock Text="{Binding Rating}" Grid.Row="1" Margin="20 0"/>
+                            <TextBlock Text="{Binding Categories.Name}" Grid.Row="2"/>
+                            <TextBlock Text="{Binding Description}" Grid.Row="3"/>
+                            <TextBlock Text="{Binding Stock, StringFormat='{}Остаток: {0}'}" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right"/>
+                        <StackPanel Grid.Row="4" Orientation="Horizontal">
+                            <ListView ItemsSource="{Binding ProductsTags}" IsEnabled="False">
+                                <ListView.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <StackPanel Orientation="Horizontal"/>
+                                    </ItemsPanelTemplate>
+                                </ListView.ItemsPanel>
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="{Binding Tags.Name}"></TextBlock>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                            <Button x:Name="addTags" Click="addTags_Click" Tag="{Binding}">+</Button>
+                        </StackPanel>
+                        </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="3" Orientation="Horizontal">
+            <TextBlock x:Name="inDB"></TextBlock>
+            <StackPanel Width="20"/>
+            <TextBlock x:Name="inList"></TextBlock>
+        </StackPanel>
+        <Grid Grid.Row="3"  Grid.ColumnSpan="2" HorizontalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="Brand" Background="#00C4B4" Margin="10 0" Click="Brand_Click" >Бренды</Button>
+            <Button x:Name="category" Grid.Column="1" Background="#00C4B4" Margin="10 0" Click="category_Click">Категории</Button>
+            <Button x:Name="Tags" Grid.Column="2" Background="#00C4B4" Margin="10 0" Click="Tags_Click">Тэги</Button>
+            <Button x:Name="AddProduct" Grid.Column="3" Background="#00C4B4" Margin="10 0" Click="AddProduct_Click" >Добавить товар</Button>
+            <Button x:Name="DeleteProduct" Grid.Column="4" Background="OrangeRed" Margin="10 0" Click="DeleteProduct_Click">Удалить товар</Button>
+            <Button x:Name="EditProduct" Grid.Column="5" Background="#00C4B4" Margin="10 0" Click="EditProduct_Click" FontSize="10">Редактировать товар</Button>
+        </Grid>
+    </Grid>
+</Page>
+ 
