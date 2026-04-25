@@ -1,0 +1,14 @@
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\bin\Debug\net8.0\Kuznetsov_01_07.exe
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\bin\Debug\net8.0\Kuznetsov_01_07.deps.json
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\bin\Debug\net8.0\Kuznetsov_01_07.runtimeconfig.json
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\bin\Debug\net8.0\Kuznetsov_01_07.dll
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\bin\Debug\net8.0\Kuznetsov_01_07.pdb
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\obj\Debug\net8.0\Kuznetsov_01_07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\obj\Debug\net8.0\Kuznetsov_01_07.AssemblyInfoInputs.cache
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\obj\Debug\net8.0\Kuznetsov_01_07.AssemblyInfo.cs
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\obj\Debug\net8.0\Kuznetsov_01_07.csproj.CoreCompileInputs.cache
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\obj\Debug\net8.0\Kuznetsov_01_07.dll
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\obj\Debug\net8.0\refint\Kuznetsov_01_07.dll
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\obj\Debug\net8.0\Kuznetsov_01_07.pdb
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\obj\Debug\net8.0\Kuznetsov_01_07.genruntimeconfig.cache
+C:\Users\st310-08\Desktop\Kuznetsov_01_07\Kuznetsov_01_07\obj\Debug\net8.0\ref\Kuznetsov_01_07.dll
