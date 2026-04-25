@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatsAcivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginHorizontal="15sp"
+        android:layout_marginTop="69sp"
+        
+        android:id="@+id/titles"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnback"
+            android:background="@drawable/arrow_square_right">
+
+        </androidx.appcompat.widget.AppCompatImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chats"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="150sp"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        app:layout_constraintTop_toBottomOf="@id/titles"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:hint="Search for a driver"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="21sp"
+        android:textSize="12sp"
+        android:background="@drawable/chatinput"
+        android:id="@+id/selectInput"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@id/selectInput"
+        android:id="@+id/spin"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

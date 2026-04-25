@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chats</string>
+    <string name="passHit">**********</string>
+    <string name="Password">Password</string>
+    <string name="emainHint">***********@mail.com</string>
+    <string name="Email">Email Address</string>
+    <string name="fill_in_your_email_and_password_to_continue">Fill in your email and password to continue</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="remeber_password">Remeber Password</string>
+</resources>
