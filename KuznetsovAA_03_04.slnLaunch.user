@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "KuznetsovAA_03_04\\KuznetsovAA_03_04.vcxproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Controller\\Controller.vcxproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
