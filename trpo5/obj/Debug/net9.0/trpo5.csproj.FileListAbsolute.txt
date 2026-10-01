@@ -1,0 +1,14 @@
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\bin\Debug\net9.0\trpo5.exe
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\bin\Debug\net9.0\trpo5.deps.json
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\bin\Debug\net9.0\trpo5.runtimeconfig.json
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\bin\Debug\net9.0\trpo5.dll
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\bin\Debug\net9.0\trpo5.pdb
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\obj\Debug\net9.0\trpo5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\obj\Debug\net9.0\trpo5.AssemblyInfoInputs.cache
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\obj\Debug\net9.0\trpo5.AssemblyInfo.cs
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\obj\Debug\net9.0\trpo5.csproj.CoreCompileInputs.cache
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\obj\Debug\net9.0\trpo5.dll
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\obj\Debug\net9.0\refint\trpo5.dll
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\obj\Debug\net9.0\trpo5.pdb
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\obj\Debug\net9.0\trpo5.genruntimeconfig.cache
+C:\Users\Neven\Desktop\Ucheba\TRPO\4_kurs\trpo5\trpo5\obj\Debug\net9.0\ref\trpo5.dll
