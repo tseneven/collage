@@ -21,7 +21,6 @@ public class Program()
             throw new InvalidOperationException("Ну че-то не то, число не может быть меньше 2");
 
         int result = 0;
-
         int countFirstSimple = 0;
         int countNumber = 0;
 
@@ -51,7 +50,7 @@ public class Program()
             result = AddToResult(result, n, ref countNumber);
         }
 
-        Console.WriteLine(result);
+        Console.WriteLine(result * countNumber);
     }
 
     private static int AddToResult(int result, int n, ref int countNumber)
