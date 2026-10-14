@@ -1,4 +1,5 @@
-﻿using trpo6.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using trpo6.Models;
 using Task = System.Threading.Tasks.Task;
 
 namespace trpo6.Infrastructure.MSSQL;
@@ -15,7 +16,6 @@ public class EntityStorage(WebApiDatabaseContext dbContext)
         try
         {
             var outputEntity = dbContext.Set<T>().Add(entity);
-            var c = Commit();
 
             return outputEntity.Entity;
         }
@@ -26,12 +26,19 @@ public class EntityStorage(WebApiDatabaseContext dbContext)
     }
     
     public T? UpdateEntity<T>(T entity) where T : class
+        => SaveEntity(entity, overwrite: true);
+
+    public T? PatchEntity<T>(T existingEntity, T patchedEntity) where T : class
     {
         try
         {
-            dbContext.Set<T>().Update(entity);
+            dbContext.Entry(existingEntity)
+                .CurrentValues
+                .SetValues(patchedEntity);
+
             Commit();
-            return entity;
+
+            return existingEntity;
         }
         catch
         {
@@ -39,12 +46,18 @@ public class EntityStorage(WebApiDatabaseContext dbContext)
         }
     }
     
-    public T? PatchEntity<T>(T existingEntity, T patchedEntity) where T : class
+    private T? SaveEntity<T>(T entity, bool overwrite) where T : class
     {
         try
         {
+            var entry = dbContext.Entry(entity);
+
+            if (entry.State == EntityState.Detached)
+                dbContext.Set<T>().Update(entity);
+
             Commit();
-            return existingEntity;
+
+            return entity;
         }
         catch
         {
