@@ -1,0 +1,45 @@
+﻿### api.http
+
+@baseUrl = http://localhost:5278/api/v1/apartments
+
+###
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+  "address": "ул. Первомайская, 46",
+  "rooms": "2",
+  "area": "35.50",
+  "price": "3200000.00",
+  "isAvailable": "true"
+}
+
+###
+GET {{baseUrl}}
+
+### 
+GET {{baseUrl}}/2
+
+###
+PATCH {{baseUrl}}/2
+Content-Type: application/json
+
+{
+  "rooms": "3",
+  "area": "55.50"
+}
+
+###
+PUT {{baseUrl}}/2
+Content-Type: application/json
+
+{
+  "address": "ул. Первомайская, 46",
+  "rooms": "2",
+  "area": "35.50",
+  "price": "3200000.00",
+  "isAvailable": "true"
+}
+
+### 
+DELETE {{baseUrl}}/delete?id=2
