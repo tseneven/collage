@@ -1,3 +1,7 @@
 ﻿.idea/
-bin/
-obj/
+trpo6/.idea/
+trpo7/.idea/
+trpo7/bin/
+trpo6/bin/
+trpo6/obj/
+trpo7/obj/
