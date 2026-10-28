@@ -1,18 +1,23 @@
 ﻿<Page x:Class="trpo7.Screen.MainPage"
+      Loaded="MainPage_OnLoaded"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      xmlns:local="clr-namespace:trpo7.Screen"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       DataContext="{Binding RelativeSource={RelativeSource Self}}"
       mc:Ignorable="d"
       Title="MainPage" Height="600" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="7*" />
-            <RowDefinition Height="1*" />
-        </Grid.RowDefinitions>
-        <ListView ItemsSource="{Binding Apartments}">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Bottom" VerticalAlignment="Bottom">
+            <StackPanel Background="DeepSkyBlue">
+                <Button x:Name="AddApartment" Click="AddApartment_OnClick" Margin="0 10">Добавить</Button>
+                <Button x:Name="EditApartment" Click="EditApartment_OnClick" Margin="0 10">Редактировать</Button>
+                <Button x:Name="DeleteApartment" Click="DeleteApartment_OnClick" Margin="0 10">Удалить</Button>
+            </StackPanel>
+            <materialDesign:Snackbar x:Name="MainSnackbar" Foreground="White" Background="Red" MessageQueue="{materialDesign:MessageQueue}" VerticalAlignment="Bottom"/>
+        </StackPanel>
+        <ListView ItemsSource="{Binding Apartments}" SelectedValue="{Binding SelectedApartment}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
@@ -36,9 +41,5 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Border Grid.Row="1" Background="LightBlue" />
-        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Top">
-            <Button>Удалить</Button>
-        </StackPanel>
-    </Grid>
+    </DockPanel>
 </Page>

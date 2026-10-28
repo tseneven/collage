@@ -1,0 +1,46 @@
+﻿<Page x:Class="trpo7.Screen.Pages.CreateAndUpdatePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      DataContext="{Binding RelativeSource={RelativeSource Self}}"
+      mc:Ignorable="d"
+      Title="CreateAndUpdatePage" Height="450" Width="800">
+    <StackPanel VerticalAlignment="Center">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <TextBox materialDesign:HintAssist.Hint="Адрес" Text="{Binding Apartment.Address}"/>
+            <ComboBox materialDesign:HintAssist.Hint="Количество комнат"
+                      SelectedValuePath="Content"
+                      SelectedValue="{Binding Apartment.Rooms, Mode=TwoWay}">
+                <ComboBoxItem Content="1" />
+                <ComboBoxItem Content="2" />
+                <ComboBoxItem Content="3" />
+                <ComboBoxItem Content="4" />
+                <ComboBoxItem Content="5" />
+            </ComboBox>
+            <TextBox materialDesign:HintAssist.Hint="Площадь"  Text="{Binding Apartment.Area}"/>
+            <TextBox materialDesign:HintAssist.Hint="Цена" Text="{Binding Apartment.Price}" />
+            <StackPanel Margin="0 10" Orientation="Horizontal">
+                <CheckBox Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                          materialDesign:ToggleButtonAssist.SwitchTrackOnBackground="Green"
+                          IsChecked= "{Binding Apartment.IsAvailable}"
+                >
+                </CheckBox>
+                <TextBlock>Доступно</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+            <Button Style="{StaticResource MaterialDesignFlatButton}" Background="Aqua" Click="ButtonBase_OnClick" Content="{Binding SaveButtonText}"/>
+            <Button Style="{StaticResource MaterialDesignFlatButton}" Background="Gray" Click="ButtonBase1_OnClick">Назад</Button>
+            </StackPanel>
+        </StackPanel>
+        <DockPanel VerticalAlignment="Bottom">
+            <materialDesign:Snackbar x:Name="MainSnackbar" 
+                                     DockPanel.Dock="Bottom"
+                                     Foreground="White"
+                                     Background="Red"
+                                     MessageQueue="{materialDesign:MessageQueue}" 
+                                     VerticalAlignment="Bottom"/>
+        </DockPanel>
+    </StackPanel>
+</Page>

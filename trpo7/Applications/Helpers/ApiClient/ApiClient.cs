@@ -1,15 +1,17 @@
 ﻿using System.Net.Http;
 
-namespace trpo7.Application.Helpers.ApiClient;
-
-public sealed class ApiClient
+namespace trpo7.Applications.Helpers.ApiClient
 {
-    public static ApiClient Instance { get; } = new();
-
-    public HttpClient Client { get; } = new()
+    public sealed class ApiClient
     {
-        BaseAddress = new Uri("http://localhost:5278/api/v1/")
-    };
+        public static ApiClient Instance { get; } = new();
+
+        public HttpClient Client { get; } = new()
+        {
+            BaseAddress = new Uri("http://localhost:5278/api/v1/")
+        };
         
-    private ApiClient(){}
+        private ApiClient(){}
+    }
 }
+
