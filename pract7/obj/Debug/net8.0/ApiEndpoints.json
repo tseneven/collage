@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "pract7.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/v1/User/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "pract7.Controllers.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

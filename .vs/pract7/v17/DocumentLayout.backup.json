@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB76CD8-9F8F-4197-9F13-7E1462EFAFB4}|pract7\\pract7.csproj|c:\\users\\st310-09\\desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\application\\services\\userserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB76CD8-9F8F-4197-9F13-7E1462EFAFB4}|pract7\\pract7.csproj|solutionrelative:pract7\\application\\services\\userserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB76CD8-9F8F-4197-9F13-7E1462EFAFB4}|pract7\\pract7.csproj|c:\\users\\st310-09\\desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\application\\dbcontext\\kuznetsovtaskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB76CD8-9F8F-4197-9F13-7E1462EFAFB4}|pract7\\pract7.csproj|solutionrelative:pract7\\application\\dbcontext\\kuznetsovtaskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB76CD8-9F8F-4197-9F13-7E1462EFAFB4}|pract7\\pract7.csproj|c:\\users\\st310-09\\desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB76CD8-9F8F-4197-9F13-7E1462EFAFB4}|pract7\\pract7.csproj|solutionrelative:pract7\\application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB76CD8-9F8F-4197-9F13-7E1462EFAFB4}|pract7\\pract7.csproj|c:\\users\\st310-09\\desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB76CD8-9F8F-4197-9F13-7E1462EFAFB4}|pract7\\pract7.csproj|solutionrelative:pract7\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB76CD8-9F8F-4197-9F13-7E1462EFAFB4}|pract7\\pract7.csproj|c:\\users\\st310-09\\desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB76CD8-9F8F-4197-9F13-7E1462EFAFB4}|pract7\\pract7.csproj|solutionrelative:pract7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Models\\KuznetsovTaskDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pract7\\Models\\KuznetsovTaskDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 427,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Application\\Models\\User.cs",
+              "RelativeDocumentMoniker": "pract7\\Application\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Application\\Models\\User.cs*",
+              "RelativeToolTip": "pract7\\Application\\Models\\User.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA8wCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T08:36:50.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KuznetsovTaskDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Application\\DBContext\\KuznetsovTaskDbContext.cs",
+              "RelativeDocumentMoniker": "pract7\\Application\\DBContext\\KuznetsovTaskDbContext.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Application\\DBContext\\KuznetsovTaskDbContext.cs",
+              "RelativeToolTip": "pract7\\Application\\DBContext\\KuznetsovTaskDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T08:35:06.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserSerivce.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Application\\Services\\UserSerivce.cs",
+              "RelativeDocumentMoniker": "pract7\\Application\\Services\\UserSerivce.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Application\\Services\\UserSerivce.cs*",
+              "RelativeToolTip": "pract7\\Application\\Services\\UserSerivce.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T08:21:19.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "pract7\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Controllers\\UserController.cs",
+              "RelativeToolTip": "pract7\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T08:06:53.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KuznetsovTaskDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Models\\KuznetsovTaskDbContext.cs",
+              "RelativeDocumentMoniker": "pract7\\Models\\KuznetsovTaskDbContext.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Models\\KuznetsovTaskDbContext.cs",
+              "RelativeToolTip": "pract7\\Models\\KuznetsovTaskDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T08:01:49.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Program.cs",
+              "RelativeDocumentMoniker": "pract7\\Program.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\\u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\\pract7\\pract7\\Program.cs",
+              "RelativeToolTip": "pract7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T07:41:38.624Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 427,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
