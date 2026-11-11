@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace pract7.Application.Models;
+﻿namespace pract7.Application.Models;
 
 public partial class Task
 {

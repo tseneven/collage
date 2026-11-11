@@ -6,12 +6,12 @@ namespace pract7.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    public class AuthController(UserSerivce userSerivce) : ControllerBase
+    public class AuthController(UserService userService) : ControllerBase
     {
         [HttpPost("register")]
         public IActionResult Register([FromBody] RegisterRequest request)
         {
-            var result = userSerivce.RegisterUser(request.ToModel());
+            var result = userService.RegisterUser(request.ToModel());
             if (result == RegisterResult.Conflict)
                 return Conflict("Такой юзер уже есть");
             return Ok("Пользователь зарегистрирован");
@@ -20,33 +20,56 @@ namespace pract7.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            var result = userSerivce.LoginUser(request.ToModel());
-            if (result.result == LoginResult.NotFound
-                || result.result == LoginResult.IncorrectPassword)
+            var result = userService.LoginUser(request.ToModel());
+            if (result.Result is LoginResult.NotFound 
+                or LoginResult.IncorrectPassword)
                 return Unauthorized("Неверная пара логин/пароль");
-            return Ok(new LoginResponse { AccessToken = result.token });
+            if (result.AccessToken is null 
+                || result.RefreshToken is null)
+                return StatusCode(500, "Токены не сгенерировались, это просто ужас");
+
+            return Ok(new LoginResponse
+            {
+                AccessToken = result.AccessToken,
+                RefreshToken = result.RefreshToken
+            });
+        }
+
+        [HttpPost("refresh")]
+        public IActionResult Refresh([FromBody] RefreshRequest request)
+        {
+            var tokens = userService.Refresh(request.ToModel());
+            return Ok(tokens);
         }
     }
 
-    public class RegisterRequest()
+    public class RegisterRequest
     {
-        public string Login { get; set; }
-        public string Password { get; set; }
+        public required string Login { get; set; }
+        public required string Password { get; set; }
 
         public RegisterModel ToModel() => new() { Login = Login, Password = Password };
     }
 
-    public class LoginRequest()
+    public class LoginRequest
     {
-        public string Login { get; set; }
-        public string Password { get; set; }
-        
+        public required string Login { get; set; }
+        public required string Password { get; set; }
+
         public LoginModel ToModel() => new() { Login = Login, Password = Password };
     }
-
-    public class LoginResponse()
+    
+    public class RefreshRequest
     {
-        [JsonPropertyName("access_token")]
-        public string? AccessToken { get; set; }
+        [JsonPropertyName("refresh_token")]
+        public required string RefreshToken { get; set; }
+
+        public RefreshModel ToModel() => new() { RefreshToken = RefreshToken };
+    }
+
+    public class LoginResponse
+    {
+        [JsonPropertyName("access_token")] public required string AccessToken { get; set; }
+        [JsonPropertyName("refresh_token")] public required string RefreshToken { get; set; }
     }
 }

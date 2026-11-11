@@ -3,7 +3,7 @@ using Task = pract7.Application.Models.Task;
 
 namespace pract7.Application.Services;
 
-public class TaskService(KuznetsovTaskDbContext context)
+public class TaskService(Trpo7Context context)
 {
     public GetTaskResult UpdateTask(int id, UpdateTaskModel model, string ownerLogin, bool isAdmin)
     {

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace pract7.Application.Models;
+﻿namespace pract7.Application.Models;
 
 public partial class User
 {
@@ -15,7 +12,6 @@ public partial class User
 
     public virtual ICollection<Task> Tasks { get; set; } = new List<Task>();
 }
-
 
 public enum Role
 {
@@ -35,6 +31,8 @@ public static class RoleExtension
                 return "Admin";
             default:
                 throw new ArgumentOutOfRangeException("Расшили модельку ролей?");
-        };
+        }
+
+        ;
     }
 }

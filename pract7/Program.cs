@@ -37,8 +37,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 builder.Services.AddSingleton<IPasswordHasher<User>, PasswordHasher<User>>();
-builder.Services.AddScoped<KuznetsovTaskDbContext>();
-builder.Services.AddScoped<UserSerivce>();
+builder.Services.AddScoped<Trpo7Context>();
+builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<TaskService>();
 
 
@@ -46,7 +46,7 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
-    var userService = scope.ServiceProvider.GetRequiredService<UserSerivce>();
+    var userService = scope.ServiceProvider.GetRequiredService<UserService>();
     userService.CreateAdmin();
 }
 
