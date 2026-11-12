@@ -1,0 +1,54 @@
+﻿create table RevokedTokens
+(
+    Id        int identity
+        constraint RevokedTokens_pk_2
+            primary key,
+    Jti       nvarchar(64) collate Cyrillic_General_CI_AS
+        constraint RevokedTokens_pk
+            unique,
+    ExpiresAt datetime2
+)
+go
+
+create table [User]
+(
+    Id           int identity
+        constraint UQ_User_Id
+            unique,
+    Login        nvarchar(255) collate Cyrillic_General_CI_AS not null
+        constraint User_pk
+            primary key,
+    Role         nvarchar(255) collate Cyrillic_General_CI_AS not null,
+    PasswordHash nvarchar(255) collate Cyrillic_General_CI_AS not null
+)
+go
+
+create table RefreshTokens
+(
+    Id        int identity
+        constraint RefreshTokens_pk_2
+            primary key,
+    UserId    int
+        constraint RefreshTokens_User_Id_fk
+            references [User] (Id),
+    TokenHash varchar(64) collate Cyrillic_General_CI_AS
+        constraint RefreshTokens_pk
+            unique,
+    ExpiresAt datetime2
+)
+go
+
+create table Task
+(
+    Id          int identity
+        constraint Task_pk
+            primary key,
+    Title       nvarchar(255) collate Cyrillic_General_CI_AS not null,
+    Description nvarchar(255) collate Cyrillic_General_CI_AS not null,
+    OwnerLogin  nvarchar(255) collate Cyrillic_General_CI_AS not null
+        constraint Task_User_Login_fk
+            references [User],
+    IsCompleted bit                                          not null
+)
+go
+
