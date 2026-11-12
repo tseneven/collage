@@ -1,3 +1,4 @@
+using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -34,11 +35,28 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ),
             ClockSkew = TimeSpan.Zero
         };
+        options.Events = new JwtBearerEvents
+        {
+            OnTokenValidated = async context =>
+            {
+                var jti = context.Principal?.FindFirst(JwtRegisteredClaimNames.Jti)?.Value;
+                if (string.IsNullOrEmpty(jti))
+                {
+                    context.Fail("В JWT отсутствует jti");
+                    return;
+                }
+                var service = context.HttpContext.RequestServices.GetRequiredService<RevokedTokenService>();
+                if (await service.IsRevokedAsync(jti))
+                    context.Fail("JWT отозван");
+            }
+        };
     });
 
 builder.Services.AddSingleton<IPasswordHasher<User>, PasswordHasher<User>>();
 builder.Services.AddScoped<Trpo7Context>();
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<RefreshTokenService>();
+builder.Services.AddScoped<RevokedTokenService>();
 builder.Services.AddScoped<TaskService>();
 
 

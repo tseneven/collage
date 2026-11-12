@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using pract7.Application.Models;
 using Task = pract7.Application.Models.Task;
 
@@ -32,10 +32,13 @@ public partial class Trpo7Context : DbContext
     {
         modelBuilder.Entity<RefreshToken>(entity =>
         {
-            entity.HasNoKey();
+            entity.HasKey(e => e.Id);
 
+            entity.HasIndex(e => e.TokenHash).IsUnique();
+            entity.Property(e => e.UserId).IsRequired();
+            entity.Property(e => e.ExpiresAt).IsRequired();
             entity.Property(e => e.Id).ValueGeneratedOnAdd();
-            entity.Property(e => e.TokenHash)
+            entity.Property(e => e.TokenHash).IsRequired()
                 .HasMaxLength(64)
                 .IsUnicode(false);
 
@@ -47,10 +50,12 @@ public partial class Trpo7Context : DbContext
 
         modelBuilder.Entity<RevokedToken>(entity =>
         {
-            entity.HasNoKey();
+            entity.HasKey(e => e.Id);
 
             entity.Property(e => e.Id).ValueGeneratedOnAdd();
-            entity.Property(e => e.Jti).HasMaxLength(64);
+            entity.HasIndex(e => e.Jti).IsUnique();
+            entity.Property(e => e.ExpiresAt).IsRequired();
+            entity.Property(e => e.Jti).IsRequired().HasMaxLength(64);
         });
 
         modelBuilder.Entity<Task>(entity =>
