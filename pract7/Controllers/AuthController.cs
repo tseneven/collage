@@ -59,14 +59,14 @@ namespace pract7.Controllers
 
         [HttpPost("logout")]
         [Authorize]
-        public IActionResult Logout()
+        public IActionResult Logout([FromBody] RefreshRequest request)
         {
             var login = User.Identity?.Name;
             var jti = User.FindFirstValue(JwtRegisteredClaimNames.Jti);
             var exp = User.FindFirstValue(JwtRegisteredClaimNames.Exp);
             if (login is null || jti is null || !long.TryParse(exp, out var seconds))
                 return Unauthorized();
-            var result = refreshTokens.Logout(login, jti,
+            var result = refreshTokens.Logout(request.RefreshToken, login, jti,
                 DateTimeOffset.FromUnixTimeSeconds(seconds).UtcDateTime);
             if (result == LogoutResult.Forbidden)
                 return Forbid();
