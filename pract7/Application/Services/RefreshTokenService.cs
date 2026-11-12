@@ -68,17 +68,15 @@ public class RefreshTokenService(
         return new RefreshResult { AccessToken = access, RefreshToken = refresh };
     }
 
-    public LogoutResult Logout(string token, string login, string jti, DateTime expiresAt)
+    public LogoutResult Logout(string login, string jti, DateTime expiresAt)
     {
-        if (string.IsNullOrWhiteSpace(token)) return LogoutResult.Unauthorized;
         using var transaction = context.Database.BeginTransaction();
-        var hash = Hash(token);
-        var stored = context.RefreshTokens.AsNoTracking().SingleOrDefault(x => x.TokenHash == hash);
-        if (stored == null || stored.ExpiresAt is null || stored.ExpiresAt <= DateTime.UtcNow)
-            return LogoutResult.Unauthorized;
-        var user = context.Users.SingleOrDefault(x => x.Id == stored.UserId);
+        var user = context.Users.SingleOrDefault(x => x.Login == login);
         if (user == null) return LogoutResult.Unauthorized;
         if (user.Login != login) return LogoutResult.Forbidden;
+        var stored = context.RefreshTokens.OrderByDescending(x => x.ExpiresAt).FirstOrDefault(x => x.UserId == user.Id);
+        if (stored == null || stored.ExpiresAt is null || stored.ExpiresAt <= DateTime.UtcNow)
+            return LogoutResult.Unauthorized;
         if (context.RefreshTokens.Where(x => x.Id == stored.Id && x.UserId == user.Id && x.ExpiresAt > DateTime.UtcNow).ExecuteDelete() != 1)
             return LogoutResult.Unauthorized;
         revokedTokens.Revoke(jti, expiresAt);

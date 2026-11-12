@@ -53,7 +53,7 @@ public class TasksController(TaskService taskService) : ControllerBase
         return Ok(result.Task!.Select(TaskResponse.FromModel).ToArray());
     }
 
-    [HttpGet]
+    [HttpGet] // todo отозванный выдает 200
     [Authorize]
     public IActionResult GetAll()
     {
